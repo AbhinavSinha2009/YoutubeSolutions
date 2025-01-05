@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//solution for: https://codeforces.com/contest/862/problem/B
+
 vector<vector<int>> adj(pow(10,5)+1);
 vector<bool> vis(pow(10,5)+1);
 vector<int> col(pow(10,5)+1);
