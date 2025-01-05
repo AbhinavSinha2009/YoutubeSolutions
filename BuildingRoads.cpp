@@ -3,7 +3,7 @@
  
 using namespace std;
  
-//solution for: https://cses.fi/problemset/result/11652294/
+//solution for: https://cses.fi/problemset/task/1666
 
 vector<vector<int>> adj(100001);
 vector<bool> vis(100001);
