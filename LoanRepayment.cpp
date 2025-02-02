@@ -6,6 +6,8 @@ using namespace std;
 ifstream fin("loan.in");
 ofstream fout("loan.out");
 
+//https://usaco.org/index.php?page=viewproblem2&cpid=991
+
 bool works(int x, int n, int m, int k){
     int g=0,days=0;
     while(g<n && days<k){
