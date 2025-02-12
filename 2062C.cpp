@@ -2,7 +2,11 @@
 #define int long long
 
 using namespace std;
+/*
+https://codeforces.com/problemset/problem/2062/C
 
+when i was initially solving this problem, i thought brute force would be sufficient based on the constraints, even though it was, my brute force was too slow. so then i implemented dp and reduced the time complexity on each vector to reduce the time complexity and solved the problem.
+*/
 vector<int> diff(vector<int> a)
 {
     vector<int> b;
