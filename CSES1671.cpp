@@ -7,8 +7,7 @@
 
 using namespace std;
 
-ifstream fin("C:/Users/abhin/CLionProjects/silver/inp.in");
-ofstream fout("C:/Users/abhin/CLionProjects/silver/inp.out");
+//https://cses.fi/problemset/task/1671/
 
 struct Edge {
     int destination;
